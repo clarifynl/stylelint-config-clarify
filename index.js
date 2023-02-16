@@ -1,5 +1,3 @@
 module.exports = {
-	"extends": [
-		"./rules/bem"
-	]
+	"extends": "./rules/base"
 }
