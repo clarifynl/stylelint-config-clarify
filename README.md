@@ -14,13 +14,13 @@ In your `package.json`, add the following:
 
 ```js
 "stylelint": {
-	"extends": ["@clarifynl/clarify"]
+	"extends": ["@clarifynl/stylelint-config-clarify"]
 }
 ```
 
 Or, for BEM-based projects:
 ```js
 "stylelint": {
-	"extends": ["@clarifynl/clarify/bem"]
+	"extends": ["@clarifynl/stylelint-config-clarify/bem"]
 }
 ```
