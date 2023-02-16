@@ -101,7 +101,7 @@ module.exports = {
 		"media-query-list-comma-space-before": "never",
 		"no-eol-whitespace": true,
 		"no-invalid-position-at-import-rule": null,
-		"number-leading-zero": "always",
+		"number-leading-zero": "never",
 		"number-no-trailing-zeros": true,
 		"property-case": "lower",
 		"rule-empty-line-before": [
