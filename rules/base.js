@@ -90,6 +90,7 @@ module.exports = {
 		"indentation": "tab",
 		"length-zero-no-unit": true,
 		"max-empty-lines": 1,
+		"max-line-length": 200,
 		"media-feature-colon-space-after": "always",
 		"media-feature-colon-space-before": "never",
 		"media-feature-name-case": "lower",
