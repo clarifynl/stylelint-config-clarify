@@ -18,7 +18,7 @@ module.exports = {
 		"at-rule-no-unknown": [
 			true,
 			{
-				"ignoreAtRules": ["debug", "each", "else", "extend", "if", "include", "mixin", "use"]
+				"ignoreAtRules": ["debug", "each", "else", "extend", "if", "include", "mixin", "tailwind", "use"]
 			}
 		],
 		"at-rule-semicolon-newline-after": "always",
@@ -112,9 +112,6 @@ module.exports = {
 				"ignore": ["after-comment"]
 			}
 		],
-		"scss/no-global-function-names": null,
-		"scss/comment-no-empty": null,
-		"scss/at-extend-no-missing-placeholder": null,
 		"selector-attribute-brackets-space-inside": "never",
 		"selector-attribute-operator-space-after": "never",
 		"selector-attribute-operator-space-before": "never",
