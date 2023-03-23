@@ -18,7 +18,7 @@ module.exports = {
 		"at-rule-no-unknown": [
 			true,
 			{
-				"ignoreAtRules": ["debug", "each", "else", "extend", "if", "include", "mixin", "tailwind", "use"]
+				"ignoreAtRules": ["debug", "each", "else", "extend", "for", "if", "include", "mixin", "tailwind", "use"]
 			}
 		],
 		"at-rule-semicolon-newline-after": "always",
