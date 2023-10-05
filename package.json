@@ -20,7 +20,7 @@
 	],
 	"dependencies": {
 		"stylelint-config-recommended": "^10.0",
-		"stylelint-selector-bem-pattern": "^2.1"
+		"stylelint-selector-bem-pattern": "^3.0"
 	},
 	"devDependencies": {
 		"stylelint": "^15.0.0"
