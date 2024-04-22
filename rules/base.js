@@ -1,6 +1,6 @@
 module.exports = {
 	"extends": [
-		"stylelint-config-recommended"
+		"stylelint-config-standard"
 	],
 	"rules": {
 		"at-rule-empty-line-before": [
@@ -13,24 +13,13 @@ module.exports = {
 				"ignore": ["after-comment"]
 			}
 		],
-		"at-rule-name-case": "lower",
-		"at-rule-name-space-after": "always-single-line",
 		"at-rule-no-unknown": [
 			true,
 			{
 				"ignoreAtRules": ["debug", "each", "else", "extend", "for", "if", "include", "mixin", "tailwind", "use"]
 			}
 		],
-		"at-rule-semicolon-newline-after": "always",
-		"block-closing-brace-empty-line-before": "never",
-		"block-closing-brace-newline-after": "always",
-		"block-closing-brace-newline-before": "always-multi-line",
-		"block-closing-brace-space-before": "always-single-line",
-		"block-opening-brace-newline-after": "always-multi-line",
-		"block-opening-brace-space-after": "always-single-line",
-		"block-opening-brace-space-before": "always",
 		"no-descending-specificity": null,
-		"color-hex-case": "lower",
 		"color-hex-length": "short",
 		"color-no-invalid-hex": true,
 		"comment-empty-line-before": [
@@ -54,16 +43,7 @@ module.exports = {
 				]
 			}
 		],
-		"declaration-bang-space-after": "never",
-		"declaration-bang-space-before": "always",
-		"declaration-block-semicolon-newline-after": "always-multi-line",
-		"declaration-block-semicolon-space-after": "always-single-line",
-		"declaration-block-semicolon-space-before": "never",
 		"declaration-block-single-line-max-declarations": 1,
-		"declaration-block-trailing-semicolon": "always",
-		"declaration-colon-newline-after": null,
-		"declaration-colon-space-after": "always-single-line",
-		"declaration-colon-space-before": "never",
 		"declaration-empty-line-before": [
 			"always",
 			{
@@ -77,34 +57,11 @@ module.exports = {
 				]
 			}
 		],
-		"function-comma-newline-after": "always-multi-line",
 		"function-no-unknown": null,
-		"function-comma-space-after": "always-single-line",
-		"function-comma-space-before": "never",
-		"function-max-empty-lines": 0,
 		"function-name-case": "lower",
-		"function-parentheses-newline-inside": "always-multi-line",
-		"function-parentheses-space-inside": "never-single-line",
-		"function-whitespace-after": "always",
 		"import-notation": "string",
-		"indentation": "tab",
 		"length-zero-no-unit": true,
-		"max-empty-lines": 1,
-		"max-line-length": 200,
-		"media-feature-colon-space-after": "always",
-		"media-feature-colon-space-before": "never",
-		"media-feature-name-case": "lower",
-		"media-feature-parentheses-space-inside": "never",
-		"media-feature-range-operator-space-after": "always",
-		"media-feature-range-operator-space-before": "always",
-		"media-query-list-comma-newline-after": "always-multi-line",
-		"media-query-list-comma-space-after": "always-single-line",
-		"media-query-list-comma-space-before": "never",
-		"no-eol-whitespace": true,
 		"no-invalid-position-at-import-rule": null,
-		"number-leading-zero": "never",
-		"number-no-trailing-zeros": true,
-		"property-case": "lower",
 		"rule-empty-line-before": [
 			"always-multi-line",
 			{
@@ -112,27 +69,9 @@ module.exports = {
 				"ignore": ["after-comment"]
 			}
 		],
-		"selector-attribute-brackets-space-inside": "never",
-		"selector-attribute-operator-space-after": "never",
-		"selector-attribute-operator-space-before": "never",
-		"selector-combinator-space-after": "always",
-		"selector-combinator-space-before": "always",
-		"selector-descendant-combinator-no-non-space": true,
 		"selector-id-pattern": null,
-		"selector-list-comma-newline-after": "always",
-		"selector-list-comma-space-before": "never",
-		"selector-max-empty-lines": 0,
-		"selector-pseudo-class-case": "lower",
-		"selector-pseudo-class-parentheses-space-inside": "never",
-		"selector-pseudo-element-case": "lower",
 		"selector-pseudo-element-colon-notation": "double",
 		"selector-type-case": "lower",
-		"string-quotes": "single",
-		"unit-case": "lower",
-		"value-list-comma-newline-after": "always-multi-line",
-		"value-list-comma-space-after": "always-single-line",
-		"value-list-comma-space-before": "never",
-		"value-list-max-empty-lines": 0,
 		"selector-class-pattern": null
 	}
 }
