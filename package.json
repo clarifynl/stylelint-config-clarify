@@ -1,6 +1,6 @@
 {
 	"name": "@clarifynl/stylelint-config-clarify",
-	"version": "0.16.2",
+	"version": "0.16.3",
 	"description": "Clarify Stylelint config",
 	"repository": {
 		"type": "git",
@@ -20,7 +20,7 @@
 	],
 	"dependencies": {
 		"stylelint": "^16.0",
-		"stylelint-config-standard": "^36.0.0",
+		"stylelint-config-standard-scss": "^13.1.0",
 		"stylelint-selector-bem-pattern": "^4.0"
 	},
 	"devDependencies": {
